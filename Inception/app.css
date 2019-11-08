@@ -1,5 +1,5 @@
 body {
-    position: relative;
+    position: absolute;
     background: url(inception.png);
     background-repeat: no-repeat;
     background-size: 100% 100%;
