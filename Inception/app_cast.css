@@ -16,3 +16,8 @@ html, body {
     height: 100%;
     justify-content: space-around;
    }
+.header_pilt {
+    position: fixed;
+    top: 0;
+    width: stretch;
+}
