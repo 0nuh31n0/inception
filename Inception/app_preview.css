@@ -1,5 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 html, body {
-    height: 100%;
+    height: 96%;
+    margin: 0;
+    overflow: hidden
 }
 body {
     background: url(Screenshot_1.png);
@@ -9,7 +16,8 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
-   }
+    padding: 0px 100px 0px 100px;
+}
 .text{
     font-family: Monda;
     font-style: normal;
@@ -18,4 +26,19 @@ body {
     line-height: 40px;
     
     color: #FFFFFF;
-    }
+}
+.header_pilt {
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 30vh;
+        background-color: #88A4B3;
+        opacity: 0.8;
+        padding: 50px;
+}
+.header_pilt .header-inner {
+        width: 100%;
+        height: 100%;
+        background-color: #708B9A;
+}    
