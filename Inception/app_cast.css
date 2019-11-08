@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 
 }
 html, body {
@@ -15,9 +16,23 @@ html, body {
     align-items: flex-end;
     height: 100%;
     justify-content: space-around;
+    position: relative;
+    overflow: hidden;
    }
 .header_pilt {
-    position: fixed;
+    width: 100%;
+    position: absolute;
     top: 0;
-    width: stretch;
+    height: 30vh;
+    background-color: #88A4B3;
+    opacity: 0.8;
+    padding: 50px;
 }
+
+.header_pilt .header-inner {
+    width: 100%;
+    height: 100%;
+    background-color: #708B9A;
+}
+
+
