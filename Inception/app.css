@@ -1,7 +1,39 @@
-body {
-    position: absolute;
-    background: url(inception.png);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+html, body {
+    height: 100%;
+}
+.body {
+    background: url(inception.jpg);
+    background-color: green;
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-attachment: fixed;
+    display: flex;
+    align-items: flex-end;
+    height: 100%;
+    justify-content: space-around;
+    position: relative;
+    overflow: hidden;
    }
+.header_pilt {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    height: 30vh;
+    background-color: #88A4B3;
+    opacity: 0.8;
+    padding: 50px;
+}
+
+.header_pilt .header-inner {
+    width: 100%;
+    height: 100%;
+    background-color: #708B9A;
+}
+
+
