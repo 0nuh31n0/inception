@@ -1,4 +1,7 @@
 body {
-    background: url(inception.jpg);
-   
+    position: relative;
+    background: url(inception.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
    }
