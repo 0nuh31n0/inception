@@ -1,26 +1,21 @@
+html, body {
+    height: 100%;
+}
 body {
-    position: relative;
     background: url(Screenshot_1.png);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-attachment: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
    }
-.text{position: absolute;
-    width: 533px;
-    height: 520px;
-    left: 93px;
-    top: 394px;
-    
+.text{
     font-family: Monda;
     font-style: normal;
     font-weight: normal;
-    font-size: 28px;
-    line-height: 46px;
+    font-size: 12px;
+    line-height: 40px;
     
     color: #FFFFFF;
     }
-.video{position: absolute;
-    width: 610px;
-    height: 398px;
-    left: 750px;
-    top: 474px;}
